@@ -74,7 +74,7 @@ export async function getServerSideProps() {
   if (process.env.NODE_ENV == "development") {
     getUrl = "http://localhost:3000";
   } else {
-    getUrl = "https://homepage-7bah553nb-hwsimmons17.vercel.app";
+    getUrl = "https://homepage-topaz-psi.vercel.app";
   }
   const entries = await (await axios.get(`${getUrl}/api/hello`)).data;
 
