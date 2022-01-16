@@ -57,12 +57,12 @@ const IntroToBlog: NextPage = () => {
             equity firms, but realized that wasn&apos;t what I wanted to do.
             <br />
             <br />
-            Being the ambitious kid I was, I couldn't sit still when I had free
-            time, so in my off time, I began learning how to code. I started out
-            learning CSS and HTML to code basic website designs, then moved into
-            JS to add functionality to those websites. I then realized that my
-            little websites would need a backend and quikcly learned Node.JS as
-            well.
+            Being the ambitious kid I was, I couldn&apos;t sit still when I had
+            free time, so in my off time, I began learning how to code. I
+            started out learning CSS and HTML to code basic website designs,
+            then moved into JS to add functionality to those websites. I then
+            realized that my little websites would need a backend and quikcly
+            learned Node.JS as well.
             <br />
             <br />
             After becoming comforable with Node.JS, I began to grow restless.
