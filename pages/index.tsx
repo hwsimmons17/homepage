@@ -54,6 +54,7 @@ const Home: NextPage<{ entries: Entries }> = ({ entries }) => {
           <h3 className={styles.articles}>Articles</h3>
           {entries.blogs.map((blogEntry) => (
             <BlogTitle
+              key={blogEntry.slug}
               slug={blogEntry.slug}
               title={blogEntry.title}
               description={blogEntry.description}
