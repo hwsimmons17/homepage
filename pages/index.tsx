@@ -69,7 +69,7 @@ const Home: NextPage<{ entries: Entries }> = ({ entries }) => {
 
 export default Home;
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   let getUrl;
   if (process.env.NODE_ENV == "development") {
     getUrl = "http://localhost:3000";
